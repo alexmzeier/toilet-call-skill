@@ -2,6 +2,8 @@ from va import MycroftSkill, intent_file_handler
 
 from va.dataModel import UserSkillMetis
 
+import requests
+
 class ToiletCall(MycroftSkill):
     def __init__(self, skill_data: UserSkillMetis):
         MycroftSkill.__init__(self, skill_data=skill_data)
